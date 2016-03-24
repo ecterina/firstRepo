@@ -2,7 +2,6 @@ public class Main {
 
     public static void main(String[] args) throws CustomException {
         UndirectedGraph ug = new UndirectedGraph(4);
-
         ug.addEdge(0, 1);
         ug.addEdge(1, 2);
         ug.addEdge(2, 3);
