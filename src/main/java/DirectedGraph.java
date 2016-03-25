@@ -22,7 +22,10 @@ public class DirectedGraph {
     }
 
     public void initListOfVertices(int nrVertices){
-        vertexList = new ArrayList<>(nrVertices);
+        for (int i = 0; i < nrVertices; i++) {
+             vertexList.add(new Vertex<Integer>(i));
+
+        }
     }
 
     public void initInboundNeighbours(){
