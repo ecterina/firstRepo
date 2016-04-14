@@ -38,4 +38,11 @@ public class Vertex<E> {
     public int hashCode() {
         return label.hashCode();
     }
+
+    @Override
+    public String toString() {
+        return "Vertex{" +
+                "label=" + label +
+                '}';
+    }
 }
